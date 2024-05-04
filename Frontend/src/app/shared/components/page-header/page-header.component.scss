@@ -1,12 +1,14 @@
-mat-toolbar{
-    .spacer{
+mat-toolbar {
+    .spacer {
         flex: 1 1 auto;
     }
-    .user-info{
+
+    .user-info {
         display: flex;
         align-items: center;
-        .name{
-            margin-right: 1rem;
+
+        button {
+            margin-left: 1rem;
         }
     }
 }
